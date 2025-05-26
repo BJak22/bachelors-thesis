@@ -1,4 +1,13 @@
-//GPU code based on https://docs.nvidia.com/cuda/cuda-c-programming-guide/ and book "CUDA by Example: An Introduction to General_Purpose GPU Programming" J.Sanders, E.Kandrot
+//GPU code based on:
+//https://docs.nvidia.com/cuda/cuda-c-programming-guide/,
+//https://github.com/NVIDIA/CUDALibrarySamples,
+//https://github.com/NVIDIA/cuda-samples,
+//https://docs.nvidia.com/cuda/cublas/index.html,
+//https://docs.nvidia.com/cuda/cusolver/,
+//https://uts.nipissingu.ca/haibinz/1557/l1557-7.pdf - Zhang. H,
+//https://people.cs.rutgers.edu/~venugopa/parallel_summer2012 - Rutgers University. (n.d.). Matrix Computation Project.
+//https://cpp0x.pl/dokumentacja/CUDA/cudaMalloc/1187
+// and book "CUDA by Example: An Introduction to General_Purpose GPU Programming" J.Sanders, E.Kandrot
 #include "kernel.h"
 
 //CUDA_CHECK, CUBLAS_CHECK and CUSOLVER_CHECK are standard macros to check errors in code run on GPU

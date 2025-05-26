@@ -21,7 +21,7 @@
 
 
 int main() {
-    int rows = 64, cols = 64;
+    int rows = 1024, cols = 1024;
     Matrix matrix1(rows, cols);
     Matrix matrix2(matrix1);
 
