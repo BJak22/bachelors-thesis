@@ -1,9 +1,3 @@
-//Biblography with similiar solutions:
-//https://www.geeksforgeeks.org/c-program-multiply-two-matrices,
-//https://github.com/mohamedhassan279/Matrix-Multiplication,
-//https://www.youtube.com/watch?v=2IgZuVGwEb0,
-//https://www.geeksforgeeks.org/cpp-program-for-determinant-of-a-matrix
-
 #pragma once
 #include <iostream>
 #include <vector>
