@@ -16,3 +16,4 @@ ATTENTION: Some of the algorithms (e.g. Strassen's algorithm) work correctly onl
 so it is recommended to test the algorithms only on matrices of the specified sizes. 
 
 ATTENTION: For proper operation of the application, it is necessary to have an NVIDIA graphics card and install the CUDA toolkit. You can download it at the following link: https://developer.nvidia.com/cuda-downloads.
+Program was written on CUDA version 12.8, so it is recomended using this version of CUDA for the correct operation of the application.
