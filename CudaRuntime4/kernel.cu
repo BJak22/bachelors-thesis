@@ -134,7 +134,6 @@ Matrix Matrix::GPU_threads_func(Matrix& m1, Matrix& m2, void (*func)(const float
 }
 
 Matrix Matrix::run_cublas(std::vector<float> h_A, std::vector<float> h_B, std::vector<float> h_C, std::string operation, int N, void (*func)(const float*, const float*, float*, int)) {
-    size_t size = N * N * sizeof(float);
 
     //First call
     auto start1 = std::chrono::high_resolution_clock::now();
